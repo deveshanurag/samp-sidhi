@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("../img/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color:rgb(144, 96, 220); */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    
+}
+#rolling{
+    display: flex;
+    flex-direction: column;
+    width: 40vmin;
+    height: 50vmin;
+    background-color: rebeccapurple;
+
+}
+.rolling-turn{
+    height:33.33%;
+    background-color:green;
+    border: 3px pink;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.rolling-dice-roll{
+    height:33.33%;
+    background-color: rgb(132, 27, 27);
+    border: 3px pink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rolling-dice-number{
+    height:33.33%;
+    background-color:white;
+    border: 3px pink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rolling-dice-number-display{
+    color: black;
+
+}
+.rolling-dice-roll-button{
+    border: 2px solid;
+    border-radius: 8px;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board{
+    position: relative;
+    background-image: url(../img/brd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+
+}
+.playing-board-cell{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: white;
+    border: 2px solid black; */
+}
+.got_b {
+	width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    border: dotted black 5px;
+}
+.got_r {
+	width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    border: dotted black 5px;
+}
+#samp1{
+    position: relative;
+    top: 500px;
+}
+/* #rollingTurn{
+    border: 2px dotted;
+    border-radius: 8px;
+    background-color:black;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+
+
+/* css property
+static : This is not any special positioning but it places the element according to the flow of the element
+relative : This is used to place the element relative to the actual position of the element
+link : https://www.w3schools.com/css/css_positioning.asp
+*/
